@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background: #FFF;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #262;
+}
+
+#root > header,
+#root > main,
+#root > footer {
+    padding: 0 16px;
+}
+
+#root > header {
+    background: #007340;
+    box-shadow: 0 20px 50px -20px #007340;
+    z-index: 1;
+}
+
+#root > main {
+    background: #FFFFEF;
+}
+
+#root > footer {
+    background: #FD0;
+}
+
+#root {
+  display: grid;
+  grid: 74px 1fr max-content / 1fr;
+  height: 100vh;
+}
+
+.profile-icon {
+  width: 4rem;
+  height: 4rem;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > a {
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FD0;
+}
+
+#root > main {
+  display: grid;
+  grid: 
+      "store-search" max-content
+      "main-delivery" max-content
+      "store-list" 1fr / 1fr;
+  grid-row-gap: 2.4rem
+}
+
+#store-search-container {
+  grid-area: store-search;
+}
+
+#main-delivery-container {
+  grid-area: main-delivery;
+}
+
+#store-list-container {
+  grid-area: store-list;
+}
