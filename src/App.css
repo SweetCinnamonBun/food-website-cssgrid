@@ -71,9 +71,7 @@ body {
   justify-items: center;
 }
 
-#root > footer {
 
-}
 
 #header-container {
   display: grid;
@@ -265,35 +263,35 @@ h2 {
 }
 
 #super-sanga .thumbnail-image {
-  background-image: url(./images/super-sanga.png);
+  background-image: url("/images/super-sanga.png");
 }
 
 #mctuckey .thumbnail-image {
-  background-image: url(./images/mctuckey.png);
+  background-image: url("/images/mctuckey.png");
 }
 
 #straya .thumbnail-image {
-  background-image: url(./images/straya.png);
+  background-image: url("/images/straya.png");
 }
 
 #snags .thumbnail-image {
-  background-image: url(./images/snags.png);
+  background-image: url("/images/snags.png");
 }
 
 #oi .thumbnail-image {
-  background-image: url(./images/oi.png);
+  background-image: url("/images/oi.png");
 }
 
 #chips-mate .thumbnail-image {
-  background-image: url(./images/chips-mate.png);
+  background-image: url("/images/chips-mate.png");
 }
 
 #fridee-nights .thumbnail-image {
-  background-image: url(./images/fridee-nights.png);
+  background-image: url("/images/fridee-nights.png");
 }
 
 #maccas .thumbnail-image {
-  background-image: url(./images/maccas.png);
+  background-image: url("/images/maccas.png");
 }
 
 .footer-logo {

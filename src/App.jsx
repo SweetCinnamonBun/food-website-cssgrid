@@ -2,6 +2,12 @@ import { CgProfile } from "react-icons/cg";
 import { IoSearch } from "react-icons/io5";
 import { GiHamburger } from "react-icons/gi";
 import "./App.css";
+import LocationIcon from "./assets/search-location-icon.svg"
+import HotFireGoldIcon from "./assets/hot-fire-gold.svg";
+import HotFireWhite from "./assets/hot-fire-white.svg";
+import InstaIcon from "./assets/instagram.svg";
+import FacebookIcon from "./assets/facebook.svg";
+import TwitterIcon from "./assets/twitter.svg";
 
 function App() {
   return (
@@ -14,7 +20,7 @@ function App() {
             <div id="delivery-widget-time">ASAP</div>
             <div id="delivery-widget-label">To</div>
             <div id="delivery-widget-address">
-              <img src="./src/assets/search-location-icon.svg" alt="Search" />
+              <img src={LocationIcon} alt="Search" />
               <input type="text" value="123 Main St" />
             </div>
           </div>
@@ -84,7 +90,7 @@ function App() {
                       <span>
                         4.5
                         <img
-                          src="./src/assets/hot-fire-gold.svg"
+                          src={HotFireGoldIcon}
                           alt="Hot Fire Gold"
                         />
                         (336)
@@ -106,7 +112,7 @@ function App() {
                       <span>
                         4.9
                         <img
-                          src="./src/assets/hot-fire-gold.svg"
+                          src={HotFireGoldIcon}
                           alt="Hot Fire Gold"
                         />
                         (5604)
@@ -128,7 +134,7 @@ function App() {
                       <span>
                         4.8
                         <img
-                          src="./src/assets/hot-fire-gold.svg"
+                          src={HotFireGoldIcon}
                           alt="Hot Fire Gold"
                         />
                         (124)
@@ -150,7 +156,7 @@ function App() {
                       <span>
                         5.0
                         <img
-                          src="./src/assets/hot-fire-gold.svg"
+                          src={HotFireGoldIcon}
                           alt="Hot Fire Gold"
                         />
                         (1535)
@@ -172,7 +178,7 @@ function App() {
                       <span>
                         4.6
                         <img
-                          src="./src/assets/hot-fire-gold.svg"
+                          src={HotFireGoldIcon}
                           alt="Hot Fire Gold"
                         />
                         (2044)
@@ -196,7 +202,7 @@ function App() {
                       <span>
                         4.9
                         <img
-                          src="./src/assets/hot-fire-gold.svg"
+                          src={HotFireGoldIcon}
                           alt="Hot Fire Gold"
                         />
                         (1604)
@@ -221,7 +227,7 @@ function App() {
                       <span>
                         3.8
                         <img
-                          src="./src/assets/hot-fire-white.svg"
+                          src={HotFireWhite}
                           alt="Hot Fire White"
                         />
                         (98)
@@ -242,17 +248,17 @@ function App() {
             <ul id="social-media-links">
               <li>
                 <a href="#">
-                  <img src="./src/assets/facebook.svg" alt="Facebook" />
+                  <img src={FacebookIcon} alt="Facebook" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./src/assets/twitter.svg" alt="Twitter" />
+                  <img src={TwitterIcon}alt="Twitter" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./src/assets/instagram.svg" alt="Instagram" />
+                  <img src={InstaIcon} alt="Instagram" />
                 </a>
               </li>
             </ul>
